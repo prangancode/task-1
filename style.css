@@ -27,18 +27,20 @@
 
 body {
     font: normal medium/1.4 sans-serif;
+
   }
   table {
     border-collapse: collapse;
     width: 100%;
   }
-  th, td {
+  th, td, input {
     padding: 0.25rem;
     text-align: left;
     border: 1px solid #ccc;
+    text-transform: uppercase;
   }
   tbody tr:nth-child(odd) {
-    background: #eee;
+    background: whitesmoke;
   }
 
 .half-width{
@@ -48,4 +50,11 @@ body {
 
 .flexible-container{
   display: flex;
+}
+
+input:focus{
+  background-color: cornflowerblue;
+}
+.bgcolor:focus{
+background-color: cornflowerblue;
 }
