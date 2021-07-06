@@ -41,4 +41,11 @@ body {
     background: #eee;
   }
 
-  
+.half-width{
+    width: 50%;;
+}
+
+
+.flexible-container{
+  display: flex;
+}
