@@ -53,8 +53,28 @@ body {
 }
 
 input:focus{
-  background-color: cornflowerblue;
+  background-color: rgb(165, 189, 236);
 }
 .bgcolor:focus{
-background-color: cornflowerblue;
+background-color: rgb(165, 189, 236);
+}
+
+.required-field::before {
+  content: "*";
+  color: red;
+  margin-left:2px
+}
+
+.redcolor{
+  color: red;
+}
+
+#textboxid
+{
+    width:300px;
+}
+
+.basic-info{
+  margin-left:15%;
+  margin-right: 15%;
 }

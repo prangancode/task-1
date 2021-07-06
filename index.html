@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en,bn">
 
 <head>
     <meta charset="UTF-8">
@@ -11,137 +11,158 @@
 
 <body>
     <h1 class="header">ONLINE EIIN APPLICATION FORM 2021</h1>
-    <h2 class="header1">NEARBY SIMILAR INSTITUTES INFORMATION</h2>
 
-    <table class="zebra">
-        <thead>
-            <tr>
-                <th> # </th>
-                <th>EIIN</th>
-                <th>INSTITUTE NAME</th>
-                <th>DISTANCE</th>
-                <th>DIRECTION</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> 1 </td>
-                <td><input type="text" placeholder="EIIN" size="20"></td>
-                <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
-                <td>
-                    <section class="flexible-container">
-                        <div class="half-width">
-                            KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
-                        </div>
-                        <div class="half-width">
-                            METER<br><input type="number" placeholder="(M)" required />
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <select name="DIRECTION" id="DIRECTION">
-                        <option value="SELECT">SELECT</option>
-                        <option value="EAST">EAST</option>
-                        <option value="WEST">WEST</option>
-                        <option value="NORTH">NORTH</option>
-                        <option value="SOUTH">SOUTH</option>
-                        <option value="NORTH-EAST">NORTH-EAST</option>
-                        <option value="NORTH-WEST">NORTH-WEST</option>
-                        <option value="SOUTH-EAST">SOUTH-EAST</option>
-                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+    <section>
+        <h2 class="header1"> BASIC INFORMATION </h2>
+        <div class="basic-info">
+            <form action="">
+                <label for="fname">NAME OF THE INSTITUTION (BANGLA) <span class="redcolor">* &nbsp; &nbsp;</span>
+                </label>
+                <input id="textboxid" type="text" placeholder="INSTITUTE NAME IN BANGLA" size="20" required /><br><br>
 
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td> 2 </td>
-                <td><input type="text" placeholder="EIIN" SIZE="20"></td>
-                <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
-                <td>
-                    <section class="flexible-container">
-                        <div class="half-width">
-                            KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
-                        </div>
-                        <div class="half-width">
-                            METER<br><input type="number" placeholder="(M)" required />
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <select name="DIRECTION" id="DIRECTION">
-                        <option value="SELECT">SELECT</option>
-                        <option value="EAST">EAST</option>
-                        <option value="WEST">WEST</option>
-                        <option value="NORTH">NORTH</option>
-                        <option value="SOUTH">SOUTH</option>
-                        <option value="NORTH-EAST">NORTH-EAST</option>
-                        <option value="NORTH-WEST">NORTH-WEST</option>
-                        <option value="SOUTH-EAST">SOUTH-EAST</option>
-                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+                <label for="fname">NAME OF THE INSTITUTION (ENGLISH) <span class="redcolor">* &nbsp; &nbsp;</span>
+                </label>
+                <input id="textboxid" type="text" placeholder="INSTITUTE NAME IN ENGLISH" size="20" required />
+            </form>
+        </div>
 
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td> 3 </td>
-                <td><input type="text" placeholder="EIIN" SIZE="20"></td>
-                <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
-                <td>
-                    <section class="flexible-container">
-                        <div class="half-width">
-                            KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
-                        </div>
-                        <div class="half-width">
-                            METER<br><input type="number" placeholder="(M)" required />
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <select name="DIRECTION" id="DIRECTION">
-                        <option value="SELECT">SELECT</option>
-                        <option value="EAST">EAST</option>
-                        <option value="WEST">WEST</option>
-                        <option value="NORTH">NORTH</option>
-                        <option value="SOUTH">SOUTH</option>
-                        <option value="NORTH-EAST">NORTH-EAST</option>
-                        <option value="NORTH-WEST">NORTH-WEST</option>
-                        <option value="SOUTH-EAST">SOUTH-EAST</option>
-                        <option value="SOUTH-WEST">SOUTH-WEST</option>
 
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td> 4 </td>
-                <td><input type="text" placeholder="EIIN" SIZE="20"></td>
-                <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
-                <td>
-                    <section class="flexible-container">
-                        <div class="half-width">
-                            KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
-                        </div>
-                        <div class="half-width">
-                            METER<br><input type="number" placeholder="(M)" required />
-                        </div>
-                    </section>
-                </td>
-                <td>
-                    <select name="DIRECTION" id="DIRECTION">
-                        <option value="SELECT">SELECT</option>
-                        <option value="EAST">EAST</option>
-                        <option value="WEST">WEST</option>
-                        <option value="NORTH">NORTH</option>
-                        <option value="SOUTH">SOUTH</option>
-                        <option value="NORTH-EAST">NORTH-EAST</option>
-                        <option value="NORTH-WEST">NORTH-WEST</option>
-                        <option value="SOUTH-EAST">SOUTH-EAST</option>
-                        <option value="SOUTH-WEST">SOUTH-WEST</option>
+    </section>
 
-                    </select>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+
+    <section>
+        <h2 class="header1">NEARBY SIMILAR INSTITUTES INFORMATION</h2>
+
+        <table class="zebra">
+            <thead>
+                <tr>
+                    <th> # </th>
+                    <th>EIIN</th>
+                    <th>INSTITUTE NAME</th>
+                    <th>DISTANCE</th>
+                    <th>DIRECTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 1 </td>
+                    <td><input type="text" placeholder="EIIN" size="20"></td>
+                    <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
+                    <td>
+                        <section class="flexible-container">
+                            <div class="half-width">
+                                KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
+                            </div>
+                            <div class="half-width">
+                                METER<br><input type="number" placeholder="(M)" required />
+                            </div>
+                        </section>
+                    </td>
+                    <td>
+                        <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                            <option value="SELECT">SELECT</option>
+                            <option value="EAST">EAST</option>
+                            <option value="WEST">WEST</option>
+                            <option value="NORTH">NORTH</option>
+                            <option value="SOUTH">SOUTH</option>
+                            <option value="NORTH-EAST">NORTH-EAST</option>
+                            <option value="NORTH-WEST">NORTH-WEST</option>
+                            <option value="SOUTH-EAST">SOUTH-EAST</option>
+                            <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td><input type="text" placeholder="EIIN" SIZE="20"></td>
+                    <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
+                    <td>
+                        <section class="flexible-container">
+                            <div class="half-width">
+                                KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
+                            </div>
+                            <div class="half-width">
+                                METER<br><input type="number" placeholder="(M)" required />
+                            </div>
+                        </section>
+                    </td>
+                    <td>
+                        <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                            <option value="SELECT">SELECT</option>
+                            <option value="EAST">EAST</option>
+                            <option value="WEST">WEST</option>
+                            <option value="NORTH">NORTH</option>
+                            <option value="SOUTH">SOUTH</option>
+                            <option value="NORTH-EAST">NORTH-EAST</option>
+                            <option value="NORTH-WEST">NORTH-WEST</option>
+                            <option value="SOUTH-EAST">SOUTH-EAST</option>
+                            <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 3 </td>
+                    <td><input type="text" placeholder="EIIN" SIZE="20"></td>
+                    <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
+                    <td>
+                        <section class="flexible-container">
+                            <div class="half-width">
+                                KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
+                            </div>
+                            <div class="half-width">
+                                METER<br><input type="number" placeholder="(M)" required />
+                            </div>
+                        </section>
+                    </td>
+                    <td>
+                        <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                            <option value="SELECT">SELECT</option>
+                            <option value="EAST">EAST</option>
+                            <option value="WEST">WEST</option>
+                            <option value="NORTH">NORTH</option>
+                            <option value="SOUTH">SOUTH</option>
+                            <option value="NORTH-EAST">NORTH-EAST</option>
+                            <option value="NORTH-WEST">NORTH-WEST</option>
+                            <option value="SOUTH-EAST">SOUTH-EAST</option>
+                            <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 4 </td>
+                    <td><input type="text" placeholder="EIIN" SIZE="20"></td>
+                    <td><input type="text" placeholder="INSTITUTE NAME" SIZE="20"></td>
+                    <td>
+                        <section class="flexible-container">
+                            <div class="half-width">
+                                KILOMETER<br><input type="number" placeholder="(KM)" required /><BR>
+                            </div>
+                            <div class="half-width">
+                                METER<br><input type="number" placeholder="(M)" required />
+                            </div>
+                        </section>
+                    </td>
+                    <td>
+                        <select class="bgcolor" name="DIRECTION" id="DIRECTION">
+                            <option value="SELECT">SELECT</option>
+                            <option value="EAST">EAST</option>
+                            <option value="WEST">WEST</option>
+                            <option value="NORTH">NORTH</option>
+                            <option value="SOUTH">SOUTH</option>
+                            <option value="NORTH-EAST">NORTH-EAST</option>
+                            <option value="NORTH-WEST">NORTH-WEST</option>
+                            <option value="SOUTH-EAST">SOUTH-EAST</option>
+                            <option value="SOUTH-WEST">SOUTH-WEST</option>
+
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 </body>
 
 </html>
